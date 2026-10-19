@@ -14,7 +14,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/united-adstir/adstirsdk-swift-package.git",
-            exact: "2.17.7"
+            exact: "2.17.8"
         ),
         .package(
             url: "https://github.com/ironsource-mobile/LevelPlay-Swift-Package.git",
@@ -33,8 +33,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "IronSourceAdapter",
-            url: "https://dl.ad-stir.com/sdk/spm/2.17.7/AdstirAdsMediationAdapterIronSource.xcframework.zip",
-            checksum: "8140860a2fc4a2863273b4d39faf6a2caa4f0f083bab053cafe3bf2c0a7e5c1f"
+            url: "https://dl.ad-stir.com/sdk/spm/2.17.8/AdstirAdsMediationAdapterIronSource.xcframework.zip",
+            checksum: "4104fdab298732ffa35a52ccab38405fbb19ab6164c17f1f581b949ae0299589"
         ),
     ]
 )
